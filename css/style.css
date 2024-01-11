@@ -1,0 +1,44 @@
+.container {
+    max-width: 1400px;
+}
+.hero-home-container{
+
+}
+.hero-home {
+}
+.home-hero {
+}
+.hero-home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relative-box {
+ width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.relative-box:nth-child(1){
+    background-color: yellow;
+}
+
+.relative-box:nth-child(2){
+    background-color: teal;
+}
+.relative-box:nth-child(3){
+    background-color: chocolate;
+}
+
+
+.relative-box:nth-child(2){
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+.relative-box:nth-child(3){
+    position: relative;
+    top: 200px;
+    right: 200px;
+}
