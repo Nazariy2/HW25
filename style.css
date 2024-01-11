@@ -1,0 +1,45 @@
+.container {
+    max-width: 1400px;
+}
+
+
+
+.header {
+}
+/*MAin*/
+.page {
+}
+.home {
+}
+.home-relative {
+}
+.relative-home {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.relative-home-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.relative-home-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.relative-home-box:nth-child(1){
+    background-color: rgba(67, 207, 39, 0.615);
+}
+.relative-home-box:nth-child(2){
+    background-color: rgb(136, 133, 51);
+}
+.relative-home-box:nth-child(3){
+    background-color: rgb(202, 21, 21);
+}
+.relative-home-box-relative {
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
